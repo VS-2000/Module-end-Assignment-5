@@ -13,7 +13,7 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: "module-end-assignment-5.vercel.app",
+  origin: "https://module-end-assignment-5.vercel.app",
   credentials: true
 }));app.use(express.json());
 
