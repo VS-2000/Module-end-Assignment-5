@@ -14,7 +14,7 @@ export default function Login() {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        "https://module-end-assignment-5-wgnw.onrender.com",
         { email, password }
       );
       setUser(data);
